@@ -1,1 +1,8 @@
 .svn
+.svn
+.sass-cache
+config.codekit
+npm-debug.log
+bourbon
+node_modules
+bower_components
