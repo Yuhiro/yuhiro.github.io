@@ -1,0 +1,11 @@
+.hide-ie8 {
+	display: none;
+}
+
+.show-ie8 {
+	display: block;
+	margin-top: 200px;
+}
+.show-ie8 ul {
+	margin-top: 20px;
+}

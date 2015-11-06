@@ -1,0 +1,8 @@
+nav.navbar .user-circle {
+	background: transparent;
+	margin: 0;
+}
+nav.navbar i.fa-user {
+	top: 1px;
+	color: #CCC;
+}
