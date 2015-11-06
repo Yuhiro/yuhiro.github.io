@@ -26,7 +26,8 @@
 	<link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
 	<link rel="stylesheet" href="/media/css/tooltip-box.css" type="text/css">
 	<link rel="stylesheet" href="/media/css/style.css" type="text/css">-->
-	<link rel="stylesheet" href="/media/css/style.min.css" type="text/css">
+	<link rel="stylesheet" href="/media/css/include.css" type="text/css">
+	<link rel="stylesheet" href="/media/css/style.css" type="text/css">
 
 	<!--[if IE 8]>
 	<link rel="stylesheet" href="/media/css/ie8.css">
