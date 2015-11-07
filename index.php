@@ -17,15 +17,7 @@
 
 	<title>Yuhiro Chavez | Developer, Guitarist, Photographer & Dog Lover</title>
 	<link href='http://fonts.googleapis.com/css?family=Lobster|Raleway:400,300,200,100,500,600,700' rel='stylesheet' type='text/css'>
-	<!--<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>-->
 
-
-	<!--<link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/bower_components/swipebox/src/css/swipebox.min.css">
-	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
-	<link rel="stylesheet" href="/media/css/tooltip-box.css" type="text/css">
-	<link rel="stylesheet" href="/media/css/style.css" type="text/css">-->
 	<link rel="stylesheet" href="/media/css/include.css" type="text/css">
 	<link rel="stylesheet" href="/media/css/style.css" type="text/css">
 
@@ -62,22 +54,21 @@
 			<h1 class="wow fadeInDown">Yuhiro Chavez</h1>
 			<ul class="interests wow fadeIn">
 				<li class="bling"><span class="wow flipInX">Developer</span></li>
-				<li><span class="wow flipInX">Guitarist</span></li>
 				<li><span class="wow flipInX">Photographer</span></li>
+				<li><span class="wow flipInX">Musician</span></li>
 				<li><span class="wow flipInX">Dog Lover</span></li>
 			</ul>
 		</div>
 	</div>
 	<div id="page" class="hide-ie8">
 		<nav id="navigation" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-			<div class="container">
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="#experience">Experience</a></li>
-						<li><a href="#photography">Photography</a></li>
-						<li><a href="#contact">Say Hello</a></li>
-					</ul>
-				</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="header-me"><a href="#myIntro"><img src="/media/images/me-square.jpg"></a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#photography">Photography</a></li>
+					<li><a href="#contact">Say Hello</a></li>
+				</ul>
 			</div>
 		</nav>
 
@@ -90,7 +81,7 @@
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#photography">Photography</a></li>
 					<li><a href="#contact">Say Hello</a></li>
-					<li class="close-menu"><a href="#">Close</a></li>
+					<li class="close-menu"><a href="#"><span>&times;</span></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -114,8 +105,6 @@
 					<div class="col-md-8 section-text intro">
 						<h3>
 							Hello Fellow Adventurer!
-							<br/>
-							<!--I'm Yuhiro and you've made it to my site!-->
 						</h3>
 						<p>
 							By day I'm a developer in Toronto, and by night I'm a Front-End/UX Consultant.
@@ -158,88 +147,108 @@
 											It can be easy to overlook some basic UX fundamentals when coding and designing from the ground up.
 											Don't worry, I'm here to help.
 										</p>
+									</div>
+									<a class="btn btn-default btn-block visible-xs" href="mailto:me@yuhirochavez.com">Hire Me</a>
+								</div>
 
-										<div class="recommendations">
-											<h5>Recommendations</h5>
-											<div class="row">
-												<div class="col-xs-12 col-md-2">
-													<span class="tooltip-fancy tooltip-fancy-effect-2">
-														<span class="tooltip-fancy-item">
-															<div class="recommendation nick"></div>
-														</span>
-														<span class="tooltip-fancy-content clearfix">
-															<span class="tooltip-fancy-text">
-																<div class="recommender">
-																	<img src="/media/images/nick.jpg" />
-																	<div class="pull-left">
-																		<div class="recommendation-title">Nick Strupat</div>
-																		<div class="recommendation-sub-title">Co-Founder, Lead Developer at Eleqted</div>
-																	</div>
-																	<div class="clearfix"></div>
+								<div class="col-xs-12">
+									<div class="recommendations">
+										<h5>Recommendations</h5>
+										<div class="row">
+											<!-- Nick -->
+											<div class="col-sm-2 col-sm-offset-3 col-xs-offset-0 col-xs-12 text-center">
+												<span class="tooltip-fancy tooltip-fancy-effect-2">
+													<span class="tooltip-fancy-item">
+														<div class="recommendation nick"></div>
+													</span>
+													<span class="tooltip-fancy-content clearfix">
+														<span class="tooltip-fancy-text">
+															<div class="recommender">
+																<img src="/media/images/nick.jpg" />
+																<div class="pull-left">
+																	<div class="recommendation-title">Nick Strupat</div>
+																	<div class="recommendation-sub-title">Co-Founder, Lead Developer at Eleqted</div>
 																</div>
+																<div class="clearfix"></div>
+															</div>
 
-																<p><i class="fa fa-quote-left"></i> Yuhiro was a great help with his contribution to the user experience on <a href="//eleqted.com">eleQted.com</a>. I had found myself at the limit of my talents in UX, but I knew it needed more refining.</p>
-																<p>Yuhiro was professional and methodical in his review and suggestions. His eye for design and usability directly translated to a much more user-friendly design.</p>
-																<p>I have had several people give me positive feedback on the design and responsiveness of <a href="//eleqted.com">eleQted</a>, and that extra mile of refinement they're talking about is a result of Yuhiro's impeccable talent. <i class="fa fa-quote-right"></i></p>
-																<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
-															</span>
+															<p><i class="fa fa-quote-left"></i> Yuhiro was a great help with his contribution to the user experience on <a href="//eleqted.com">eleQted.com</a>. I had found myself at the limit of my talents in UX, but I knew it needed more refining.</p>
+															<p>Yuhiro was professional and methodical in his review and suggestions. His eye for design and usability directly translated to a much more user-friendly design.</p>
+															<p>I have had several people give me positive feedback on the design and responsiveness of <a href="//eleqted.com">eleQted</a>, and that extra mile of refinement they're talking about is a result of Yuhiro's impeccable talent. <i class="fa fa-quote-right"></i></p>
+															<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
 														</span>
 													</span>
-												</div>
+												</span>
+											</div>
 
-												<!--<div class="col-xs-12 col-md-2">
-													<span class="tooltip-fancy tooltip-fancy-effect-2">
-														<span class="tooltip-fancy-item">
-															<div class="recommendation fletch"></div>
-														</span>
-														<span class="tooltip-fancy-content clearfix">
-															<span class="tooltip-fancy-text">
-																<div class="recommender">
-																	<img src="/media/images/fletch.jpg" />
-																	<div class="pull-left">
-																		<div class="recommendation-title">Fletcher Johnston</div>
-																		<div class="recommendation-sub-title">Co-Founder, Avatara Software</div>
-																	</div>
-																	<div class="clearfix"></div>
+											<!-- Fletcher -->
+											<div class="col-sm-2 col-xs-12 text-center">
+												<span class="tooltip-fancy tooltip-fancy-effect-2">
+													<span class="tooltip-fancy-item">
+														<div class="recommendation fletch"></div>
+													</span>
+													<span class="tooltip-fancy-content clearfix">
+														<span class="tooltip-fancy-text">
+															<div class="recommender">
+																<img src="/media/images/fletch.jpg" />
+																<div class="pull-left">
+																	<div class="recommendation-title">Fletcher Johnston</div>
+																	<div class="recommendation-sub-title">Co-Founder, Avatara Software Inc.</div>
 																</div>
+																<div class="clearfix"></div>
+															</div>
 
-																<p><i class="fa fa-quote-left"></i> Yuhiro was a great help with his contribution to the user experience on <a href="//eleqted.com">eleQted.com</a>. I had found myself at the limit of my talents in UX, but I knew it needed more refining.</p>
-																<p>Yuhiro was professional and methodical in his review and suggestions. His eye for design and usability directly translated to a much more user-friendly design.</p>
-																<p>I have had several people give me positive feedback on the design and responsiveness of <a href="//eleqted.com">eleQted</a>, and that extra mile of refinement they're talking about is a result of Yuhiro's impeccable talent. <i class="fa fa-quote-right"></i></p>
-																<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
-															</span>
+															<p>
+																<i class="fa fa-quote-left"></i>
+																Yuhiro has provided UX consulting services for us on two projects, and both times he has brought an insight and passion for user experience that was much needed.
+																As a backend developer, I was particularly thankful for his attention to the little things;
+																small touches that greatly improved the usability of the app in subtle ways I had overlooked.
+																We received extremely positive feedback from both clients after incorporating Yuhiro's improvements and releasing them.
+																<br />
+																I would highly recommend Yuhiro's services to anyone who is looking to improve the look and feel, usability, or overall user experience of their apps.
+																His extensive background in software consulting means that he can hit the ground running and make an immediate contribution to your project,
+																regardless of the business logic behind it.
+																<i class="fa fa-quote-right"></i>
+															</p>
+															<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
 														</span>
 													</span>
-												</div>
+												</span>
+											</div>
 
-												<div class="col-xs-12 col-md-2">
-													<span class="tooltip-fancy tooltip-fancy-effect-2">
-														<span class="tooltip-fancy-item">
-															<div class="recommendation chris"></div>
-														</span>
-														<span class="tooltip-fancy-content clearfix">
-															<span class="tooltip-fancy-text">
-																<div class="recommender">
-																	<img src="/media/images/chris.jpg" />
-																	<div class="pull-left">
-																		<div class="recommendation-title">Fletcher Johnston</div>
-																		<div class="recommendation-sub-title">Director, Software Services at Indellient</div>
-																	</div>
-																	<div class="clearfix"></div>
+											<!-- Chris -->
+											<div class="col-sm-2 col-xs-12 text-center">
+												<span class="tooltip-fancy tooltip-fancy-effect-2">
+													<span class="tooltip-fancy-item">
+														<div class="recommendation chris"></div>
+													</span>
+													<span class="tooltip-fancy-content clearfix">
+														<span class="tooltip-fancy-text">
+															<div class="recommender">
+																<img src="/media/images/chris.jpg" />
+																<div class="pull-left">
+																	<div class="recommendation-title">Chris Venantius</div>
+																	<div class="recommendation-sub-title">Partner, Indellient Inc.</div>
 																</div>
+																<div class="clearfix"></div>
+															</div>
 
-																<p><i class="fa fa-quote-left"></i> Yuhiro was a great help with his contribution to the user experience on <a href="//eleqted.com">eleQted.com</a>. I had found myself at the limit of my talents in UX, but I knew it needed more refining.</p>
-																<p>Yuhiro was professional and methodical in his review and suggestions. His eye for design and usability directly translated to a much more user-friendly design.</p>
-																<p>I have had several people give me positive feedback on the design and responsiveness of <a href="//eleqted.com">eleQted</a>, and that extra mile of refinement they're talking about is a result of Yuhiro's impeccable talent. <i class="fa fa-quote-right"></i></p>
-																<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
-															</span>
+															<p>
+																<i class="fa fa-quote-left"></i>
+																I had the opportunity to work with Yuhiro at Indellient Inc. During his time he helped support a critical client with ongoing services, involved with product development and took on administration duties within the company. I am most familiar with his work with the critical client where we were direct colleagues. The responsibilities were not limited to a set of job tasks or technologies. It involved maintaining a custom application system with a database backend and multiple front ends including application specific interfaces, public websites and private web interfaces. The users of the system are worldwide and number over 750 K.
+																<br />
+																One of the best qualities I found with Yuhiro is his dedication in ensuring a high quality of work. If there was a client satisfaction issue or a system issue, it was never a question or an ask to keep focus regardless if it means staying late or shifting priorities. This enables him to be an independent co-worker in the sense of not needing to micro-managed.
+																<br />
+																If you are considering working with Yuhiro (as a hire, colleague or contractor), I recommend him and he will be a value add.
+																<i class="fa fa-quote-right"></i>
+															</p>
+															<div class="close-recommendation"><a href="#"><i class="fa fa-close"></i></a></div>
 														</span>
 													</span>
-												</div>-->
+												</span>
 											</div>
 										</div>
 									</div>
-									<a class="btn btn-default btn-block visible-xs" href="mailto:me@yuhirochavez.com">Hire Me</a>
 								</div>
 							</div>
 							<div class="job job-border clearfix">
@@ -296,8 +305,9 @@
 							<div class="col-md-6 job">
 								<div class="job-title">UX / Wireframing / Design</div>
 								<ul>
+									<li>Sketch</li>
 									<li>Omnigraffle</li>
-									<li>Axure</li>
+									<li>Zeplin</li>
 									<li>A handy whiteboard</li>
 								</ul>
 								<ul class="skill-break">
@@ -309,16 +319,14 @@
 								<div class="job-title">Development</div>
 								<ul>
 									<li>HTML5</li>
-									<li>CSS3/LESS</li>
-									<li>jQuery</li>
-									<li>Javascript</li>
+									<li>CSS3/SASS/LESS</li>
+									<li>AngularJS</li>
 									<li>Backbone</li>
+									<li>jQuery</li>
 									<li>PHP</li>
 									<li>AJAX</li>
-									<li>AngularJS</li>
 									<li>Java</li>
 									<li>C</li>
-									<li>LotusScript</li>
 								</ul>
 								<ul class="skill-break"><li>Grunt</li></ul>
 								<ul class="skill-break">
