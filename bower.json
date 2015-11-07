@@ -10,11 +10,11 @@
     "modernizr": "latest",
     "animate.css": "latest",
     "fontawesome": "latest",
-    "html5-boilerplate": "latest",
     "swipebox": "1.3.0.1",
     "wowjs": "latest",
     "jquery.easing": "latest",
-    "jquery": "2.1.1"
+    "reset-css": "latest",
+    "jquery": "latest"
   },
   "private": true
 }
